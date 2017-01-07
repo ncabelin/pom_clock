@@ -1,0 +1,107 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color:#C2C88D;
+  font-size:60px;
+}
+
+p {
+  font-size: 20px;
+}
+
+body {
+  background:
+linear-gradient(
+  rgba(0, 0, 0, 0.65),
+  rgba(0, 0, 0, 0.65)
+ ),    url("https://cloud.githubusercontent.com/assets/15892944/13728073/244ff29c-e8c8-11e5-8645-4e787a5830b8.jpg")
+  no-repeat;
+  background-size: cover;
+}
+
+button {
+  background-color:#F94C2D;
+  color:white;
+  font-size:18px;
+  border-radius:100%;
+  padding:20px;
+}
+
+button:hover {
+  background-color:#D00A04;
+  color:white;
+}
+
+button:focus {
+    outline:0 !important;
+  }
+
+.break, .sess {
+  border: 0;
+  color: #f6931f;
+  font-weight: bold;
+}
+
+#plusBreak, #plusSession, #minusBreak, #minusSession {
+  font-size: 50px;
+}
+
+#timeNow, #status {
+  font-size:30px;
+}
+
+.btn {
+  border-radius:100%;
+  width: 100px;
+  height: 100px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.sliders {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      width: 50%;
+    }
+
+    input {
+      width: 80px;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    #panel {
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgba(0,0,0,0.2);
+      border-radius: 10px;
+    }
+
+    #startTime, #pauseTime, #clearTime {
+      margin-bottom: 20px;
+    }
+
+@media screen and (max-width:540px) {
+  input {
+    font-size: 12px;
+    width: 40px;
+  }
+
+
+
+
+}
